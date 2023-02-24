@@ -1,5 +1,54 @@
+@import "output.css";
 /*==================== GOOGLE FONTS ====================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: "madani-light";
+    src: url('../fonts/light.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "madani-regular";
+    src: url('../fonts/regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "madani-medium";
+    src: url('../fonts/medium.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "madani-sb";
+    src: url('../fonts/sb.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "madani-bold";
+    src: url('../fonts/bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "madani-xb";
+    src: url('../fonts/sb.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "madani-bold";
+    src: url('../fonts/bold.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -26,8 +75,10 @@
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
+    --title-font: 'madani-bold', sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --xl-font-size: 7rem;
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
@@ -318,7 +369,7 @@ img {
 }
 
 .home_blob-img {
-    width: 550px;
+    width: 300px;
 }
 
 .home_data {
@@ -326,13 +377,16 @@ img {
     border: solid 1px blue;
 }
 
-.home_title{
-    font-size: var(--big-font-size);
+.home_title {
+    font-family: var(--title-font);
+    font-size: var(--xl-font-size);
+    letter-spacing: -.2rem;
 }
 
 .home_subtitle {
+    font-family: var(--title-font);
     font-size: var(--h3-font-size);
-    color: var(--text-color);
+    color: black;
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-75);
 }
