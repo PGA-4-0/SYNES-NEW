@@ -119,7 +119,16 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3, h4 {
+pre{
+    font-family: var( --body-font);
+    color: black;
+    font-size: var(--smaller-font-size);
+}
+
+h1,
+h2,
+h3,
+h4 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
 }
@@ -146,16 +155,13 @@ img {
     font-size: var(--h1-font-size);
 }
 
-.section_subtitle {
+.about_subtitle {
     display: block;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: var(--mb-3);
+    margin-top: 10rem;
 }
 
-.section_title,
-.section_subtitle {
-    text-align: center;
-}
 
 /*==================== LAYOUT ====================*/
 .container {
@@ -277,12 +283,19 @@ img {
     gap: 1rem;
 }
 
-.home_content {
+.home_content,
+.about_content,
+.skills_content,
+.qualification_content,
+.portofolio_content,
+.certificate_content {
     /* note */
-    grid-template-columns: .5fr 1fr;
+    grid-template-columns: .10fr 1fr;
     padding-top: 3.5rem;
     align-items: center;
 }
+
+
 
 .home_social {
     display: grid;
@@ -310,9 +323,10 @@ img {
 
 .home_data {
     grid-column: 1/3;
+    border: solid 1px blue;
 }
 
-.home_title {
+.home_title{
     font-size: var(--big-font-size);
 }
 
@@ -928,7 +942,12 @@ img {
         column-gap: 0;
     }
 
-    .home_content {
+    .home_content,
+    .about_content,
+    .skills_content,
+    .qualification_content,
+    .portofolio_content,
+    .certificate_content {
         grid-template-columns: .25fr 3fr;
     }
 
@@ -961,6 +980,14 @@ img {
         grid-template-columns: max-content 1fr 1fr;
     }
 
+    .about_content,
+    .skills_content,
+    .qualification_content,
+    .portofolio_content,
+    .certificate_content {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+
     .home_data {
         grid-column: initial;
     }
@@ -977,7 +1004,8 @@ img {
     .profile_container,
     .contact_container,
     .footer_container {
-        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 1rem;
     }
 
     .qualification_section {
@@ -1001,8 +1029,9 @@ img {
         padding: 6rem 0 2rem;
     }
 
-    .section_subtitle {
-        margin-bottom: 4rem;
+    .about_subtitle {
+        margin-bottom: 0.5rem;
+        margin-top: 10rem;
     }
 
     .header {
@@ -1047,6 +1076,18 @@ img {
     .home_content {
         padding-top: 5.5rem;
         column-gap: 2rem;
+        border: solid 1px blue
+    }
+
+    .about_content,
+    .skills_content,
+    .qualification_content,
+    .portofolio_content,
+    .certificate_content {
+        padding-top: 5.5rem;
+        column-gap: 2rem;
+        margin-left: 3.5rem;
+        border: solid 1px blue
     }
 
     .home_blob {
