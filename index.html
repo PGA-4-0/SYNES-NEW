@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- (UNICONS) -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- (SWIPER CSS) -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- (CSS) -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Responsive Rayhan Portofolio</title>
+</head>
+
+<body>
+    <!-- (HEADER) -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Rayhan</a>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portofolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i> Portofolio
+                        </a>
+                    </li>
+                    <!-- ADD ON -->
+                    <li class="nav_item">
+                        <a href="#certificate" class="nav_link">
+                            <i class="uil uil-file-bookmark-alt nav_icon"></i> Certificate
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i> Contactme
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+            <div class="nav_btns">
+                <!-- (THEME CHANGE BUTTON) -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toogle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- (MAIN) -->
+    <main class="main">
+        <!-- (HOME) -->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+                        <a href="https://www.linkedin.com/in/ryhnillysa" target="_blank" class="home_social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/ryhn7" target="_blank" class="home_social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="https://gitlab.com/ryhn7" target="_blank" class="home_social-icon">
+                            <i class="uil uil-gitlab"></i>
+                        </a>
+                    </div>
+                    <div class="home-img">
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home_blob-img" x='-110' y='-75' xlink:href="assets/img/rayhan.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, I am Rayhan</h1>
+                        <h3 class="home_subtitle">Informatics Students</h3>
+                        <p class="home_description">
+                            Interested in Artificial Intelligence, Software Developer and Design
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- (ABOUT) -->
+        <section class="about section" id="about">
+            <h2 class="section_title">About Me</h2>
+            <span class="section_subtitle">My Introduction</span>
+
+            <div class="about_container container grid">
+                <img src="assets/img/ryhn.jpg" alt="" class="about_img">
+
+                <div class="about_data">
+                    <p class="about_description">Students of second year informatics program study with educational of
+                        programming language. Good in English with good communication and interpersonal skills. A fast
+                        learner with strong-time management skill. Strong work ethic in team or individual settings to
+                        drive product success and process efficiency. Strong troubleshooting and problem solving skills
+                        with an analytical mindset.</p>
+
+                    <div class="about_info">
+                        <div>
+                            <span class="about_info-title">±1</span>
+                            <span class="about_info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">±11</span>
+                            <span class="about_info-name">Exercise <br> projects</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">02</span>
+                            <span class="about_info-name">Organization</span>
+                        </div>
+                    </div>
+
+                    <div class="about_buttons">
+                        <a download="" href="assets/pdf/CV-Rayhan Illyas Annabil.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- (SKILLS) -->
+        <section class="skills section" id="skills">
+            <h2 class="section_title">Skills</h2>
+            <span class="section_subtitle">My technical level</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    <!-- (SKILLS 1) -->
+                    <div class="skills_content">
+                        <div class="skills_header">
+                            <i class="uil uil-brackets-curly skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Programming language</h1>
+                                <span class="skills_subtitle">Around 1 year</span>
+                            </div>
+
+                            <i class="uil uil-angle-up skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Python</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">C</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_c"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Dart</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_dart"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- (SKILLS 2) -->
+                    <div class="skills_content">
+                        <div class="skills_header">
+                            <i class="uil uil-server-network skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Framework</h1>
+                                <span class="skills_subtitle">Around 11 months</span>
+                            </div>
+
+                            <i class="uil uil-angle-up skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Flutter</h3>
+                                    <span class="skills_desc">Advanced Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_flutter"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- (SKILLS 3) -->
+                    <div class="skills_content">
+                        <div class="skills_header">
+                            <i class="uil uil-swatchbook skills_icon"></i>
+
+                            <div>
+                                <h1 class="skills_title">Design</h1>
+                                <span class="skills_subtitle">Around 6 months</span>
+                            </div>
+
+                            <i class="uil uil-angle-up skills_arrow"></i>
+                        </div>
+
+                        <div class="skills_list grid">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Photoshop</h3>
+                                    <span class="skills_desc">Beginner</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percentage skills_photoshop"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- (Qualification) -->
+        <section class="qualification section">
+            <h2 class="section_title">Qualification</h2>
+            <span class="section_subtitle">My personal journey</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex qualification_active" data-target='#exp'>
+                        <i class="uil uil-star"></i>
+                        Experience
+                    </div>
+
+                    <div class="qualification_button button--flex" data-target='#prc'>
+                        <i class="uil uil-book-open"></i>
+                        Course
+                    </div>
+                </div>
+
+                <div class="qualification_section">
+                    <!-- (SECTION) -->
+                    <div class="qualification_content qualification_active" data-content id="exp">
+                        <!-- (CONTENT 1) -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Program Member</h3>
+                                <span class="qualification_subtitle">DSC UNDIP</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    October 2020 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                        <!-- (CONTENT 2) -->
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Logistics Staff</h3>
+                                <span class="qualification_subtitle">TEDxUNDIP 2.0</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    January 2021 - March 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Quality Assurance Staff</h3>
+                                <span class="qualification_subtitle">AIESEC in Semarang</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    February 2021 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div></div>
+
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Organize Commite Program</h3>
+                                <span class="qualification_subtitle">AIESEC in Semarang x Diskominfo Semarang</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    February 2021 - March 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Multi-Platfrom App Developer <br> Indosat Ooredo Digital
+                                    Camp 2021 Awardee</h3>
+                                <span class="qualification_subtitle">Indosat Ooredo x Dicoding</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    May 2021 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qualification_content" data-content id="prc">
+                        <!-- (CONTENT) -->
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Pemrograman Backend (Python)</h3>
+                                <span class="qualification_subtitle">Progate</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    October 2020 - November 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Android Kotlin Fundamental Course</h3>
+                                <span class="qualification_subtitle">Android Study Jams DSC UNDIP</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    November 2020
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Serverless Firebase Development</h3>
+                                <span class="qualification_subtitle">Qwiklabs</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    January 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div></div>
+
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Progate Course</h3>
+                                <span class="qualification_subtitle">Progate</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    January 2021 - February 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Flutter Beginner</h3>
+                                <span class="qualification_subtitle">Dicoding</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    March 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div></div>
+
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Flutter Fundamental</h3>
+                                <span class="qualification_subtitle">Dicoding</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    August 2021 - September 2021
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data">
+                            <div>
+                                <h3 class="qualification_title">Flutter Expert</h3>
+                                <span class="qualification_subtitle">Dicoding</span>
+                                <div class="qualification_time">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    October 2021 - November 2021
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <!-- <span class="qualification_line"></span> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- (SERVICES) -->
+
+        <!-- (PORTOFOLIO) -->
+        <section class="portofolio section" id="portofolio">
+            <h2 class="section_title">Portofolio</h2>
+            <span class="section_subtitle">Most recent work</span>
+
+            <div class="personal_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- (PORTOFOLIO 1) -->
+                    <div class="portofolio_content grid swiper-slide">
+                        <img src="assets/img/landmark.png" alt="" class="portofolio_img">
+
+                        <div class="portofolio_data">
+                            <h3 class="portofolio_title">Landmark UI Flutter</h3>
+                            <p class="portofolio_desc">A simple UI application showing icon, description and image from
+                                wonders of the world</p>
+                        </div>
+                    </div>
+
+                    <!-- (PORTOFOLIO 2) -->
+                    <div class="portofolio_content grid swiper-slide">
+                        <img src="assets/img/wisata.png" alt="" class="portofolio_img">
+
+                        <div class="portofolio_data">
+                            <h3 class="portofolio_title">Wisata Bandung UI Flutter</h3>
+                            <p class="portofolio_desc">A simple UI application showing information, description and
+                                image from
+                                tourist destination in Bandung</p>
+                        </div>
+                    </div>
+
+                    <!-- (PORTOFOLIO 3) -->
+                    <div class="portofolio_content grid swiper-slide">
+                        <img src="assets/img/resto.png" alt="" class="portofolio_img">
+
+                        <div class="portofolio_data">
+                            <h3 class="portofolio_title">All In Restaurant Flutter App</h3>
+                            <p class="portofolio_desc">An application that displays a list of restaurant data from the
+                                Internet with some features such as notification, restaurant search, favorite list,
+                                review, and so on.
+                                This application also provides 2 modes, which are dark and light modes. </p>
+                        </div>
+                    </div>
+
+                    <!-- (PORTOFOLIO 4) -->
+                    <div class="portofolio_content grid swiper-slide">
+                        <img src="assets/img/ditonton.png" alt="" class="portofolio_img">
+
+                        <div class="portofolio_data">
+                            <h3 class="portofolio_title">Ditonton Flutter Movie Streaming App</h3>
+                            <p class="portofolio_desc">An application that displays a list of Movie and TV Series data from the
+                                Internet with features similar to real streaming app.
+                                This application is ready to be released with quality code and easy to develop related to feedback from users in the future. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- (ADD ARROW) -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portofolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portofolio-icon"></i>
+                </div>
+
+                <!-- (ADD PAGINATION) -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- ADD ON -->
+        <!-- (CERTIFICATE) -->
+        <section class="certificate section" id="certificate">
+            <h2 class="section_title">Certificate</h2>
+            <span class="section_subtitle">Programming Things</span>
+
+            <div class="personal_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- (CERTIFICATE 1) -->
+                    <div class="certificate_content grid swiper-slide">
+                        <img src="assets/img/dart.jpg" alt="" class="certificate_img">
+
+                        <div class="certificate_data">
+                            <h3 class="certificateo_title">Memulai Pemrograman dengan Dart</h3>
+                            <p class="certificate_desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- (CERTIFICATE 2) -->
+                    <div class="certificate_content grid swiper-slide">
+                        <img src="assets/img/f_pemula.jpg" alt="" class="certificate_img">
+
+                        <div class="certificate_data">
+                            <h3 class="certificateo_title">Belajar Membuat Aplikasi Flutter untuk Pemula</h3>
+                            <p class="certificate_desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- (CERTIFICATE 3) -->
+                    <div class="certificate_content grid swiper-slide">
+                        <img src="assets/img/f_fundamental.jpg" alt="" class="certificate_img">
+
+                        <div class="certificate_data">
+                            <h3 class="certificateo_title">Belajar Fundamental Aplikasi Flutter</h3>
+                            <p class="certificate_desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- (CERTIFICATE 4) -->
+                    <div class="certificate_content grid swiper-slide">
+                        <img src="assets/img/f_expert.jpg" alt="" class="certificate_img">
+
+                        <div class="certificate_data">
+                            <h3 class="certificateo_title">Menjadi Flutter Developer Expert</h3>
+                            <p class="certificate_desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- (CERTIFICATE 5) -->
+                    <div class="certificate_content grid swiper-slide">
+                        <img src="assets/img/java.jpg" alt="" class="certificate_img">
+
+                        <div class="certificate_data">
+                            <h3 class="certificateo_title">Memulai Pemrograman dengan Java</h3>
+                            <p class="certificate_desc"></p>
+                        </div>
+                    </div>
+
+                    <!-- (CERTIFICATE 6) -->
+                    <div class="certificate_content grid swiper-slide">
+                        <img src="assets/img/solid.jpg" alt="" class="certificate_img">
+
+                        <div class="certificate_data">
+                            <h3 class="certificateo_title">Belajar Prinsip Pemrograman Solid</h3>
+                            <p class="certificate_desc"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- (ADD ARROW) -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portofolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portofolio-icon"></i>
+                </div>
+
+                <!-- (ADD PAGINATION) -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- (PROJECT IN MIND) -->
+        <section class="profile section">
+            <div class="profile_bg">
+                <div class="profile_container container grid">
+                    <div class="profile_data">
+                        <h2 class="profile_title">Hello there</h2>
+                        <p class="profile_desc">“One can begin so many things with a new person! - even begin to be a
+                            better man.” <br> -George Eliot </p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Get in touch
+                            <i class="uil uil-message profile_icon button_icon"></i>
+
+                        </a>
+                    </div>
+
+                    <img src="assets/img/han2.png" alt="" class="profile_img">
+                </div>
+            </div>
+        </section>
+
+        <!-- (CONTACT ME) -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Contact Me</h2>
+            <span class="section_subtitle">Get in touch</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_info">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Call Me</h3>
+                            <span class="contact_subtitle">(+62)82234419237</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_info">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">rayhan205732@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_info">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">Semarang - Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Name</label>
+                            <input type="text" class="contact_input">
+                        </div>
+
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Email</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- (FOOTER) -->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Rayhan</h1>
+                    <span class="footer_subtitle">Informatics Student</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#portofolio" class="footer_link">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contactme</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.instagram.com/ryhnilys7" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- (SCROLL TOP) -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!-- (SWIPER JS) -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+
+    <!-- (MAIN JS) -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/efek.js"></script>
+</body>
+
+</html>
