@@ -1,3 +1,4 @@
+@import "output.css";
 /*==================== GOOGLE FONTS ====================*/
 @font-face {
     font-family: "madani-light";
@@ -355,7 +356,7 @@ img {
 }
 
 .home_blob-img {
-    width: 250px;
+    width: 300px;
 }
 
 .home_data {
@@ -373,6 +374,7 @@ img {
     font-size: var(--h3-font-size);
     color: black;
     font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
 }
 
 .home_description {
