@@ -1,54 +1,6 @@
 @import "output.css";
 /*==================== GOOGLE FONTS ====================*/
-@font-face {
-    font-family: "madani-light";
-    src: url('../fonts/light.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "madani-regular";
-    src: url('../fonts/regular.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "madani-medium";
-    src: url('../fonts/medium.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "madani-sb";
-    src: url('../fonts/sb.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "madani-bold";
-    src: url('../fonts/bold.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "madani-xb";
-    src: url('../fonts/sb.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: "madani-bold";
-    src: url('../fonts/bold.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -74,8 +26,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /*========== Font and typography ==========*/
-    --body-font: 'Poppins', sans-serif;
-    --title-font: 'madani-bold', sans-serif;
+
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --xl-font-size: 7rem;
@@ -164,7 +115,6 @@ html {
 
 body {
     margin: 0 0 var(--header-height) 0;
-    font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
@@ -364,13 +314,11 @@ img {
 }
 
 .home_title {
-    font-family: var(--title-font);
     font-size: var(--xl-font-size);
     letter-spacing: -.2rem;
 }
 
 .home_subtitle {
-    font-family: var(--title-font);
     font-size: var(--h3-font-size);
     color: black;
     font-weight: var(--font-medium);
@@ -864,7 +812,6 @@ img {
     width: 100px;
     background-color: var(--input-color);
     color: var(--text-color);
-    font-family: var(--body-font);
     font-size: var(--normal-font-size);
     border: none;
     outline: none;
