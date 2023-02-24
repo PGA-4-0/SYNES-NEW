@@ -3,7 +3,7 @@ module.exports = {
     theme: {
         screens: {
             xs: "300px",
-            "xs-max": { max: "300px" },
+            "xs-max": { max: "456px" },
             sm: "576px",
             "sm-max": { max: "576px" },
             md: "768px",
