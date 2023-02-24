@@ -8,7 +8,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 142;
+    --hue-color: 230;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -637,7 +637,7 @@ img {
 /* Active Modal */
 
 
-/*==================== SWIPPER FOR PORTOFOLIO & CERTIFICATE ====================*/
+/*==================== SWIPPER FOR testimoni & CERTIFICATE ====================*/
 .personal_container {
     overflow: initial;
 }
@@ -671,35 +671,35 @@ img {
 
 
 
-/*==================== PORTOFOLIO ====================*/
+/*==================== testimoni ====================*/
 
 
-.portofolio_content {
+.testimoni_content {
     padding: 0 1.5rem;
 }
 
-.portofolio_img {
+.testimoni_img {
     width: 300px;
     border-radius: .5rem;
     justify-self: center;
 }
 
-.portofolio_title {
+.testimoni_title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
 }
 
-.portofolio_desc {
+.testimoni_desc {
     margin-bottom: var(--mb-0-75);
 }
 
-.portofolio_button:hover .button_icon {
+.testimoni_button:hover .button_icon {
     transform: translateX(.25rem);
 }
 
 
 
-.swiper-portofolio-icon {
+.swiper-testimoni-icon {
     font-size: 2rem;
     color: var(--first-color);
 }
@@ -973,7 +973,7 @@ img {
 
     .about_container,
     .skills_container,
-    .portofolio_content,
+    .testimoni_content,
     .certificate_content,
     .profile_container,
     .contact_container,
@@ -1097,11 +1097,11 @@ img {
         grid-template-columns: .5fr;
     }
 
-    .portofolio_img {
+    .testimoni_img {
         width: 320px;
     }
 
-    .portofolio_content {
+    .testimoni_content {
         align-items: center;
     }
 
@@ -1176,11 +1176,11 @@ img {
         transform: translateX(-6rem);
     }
 
-    .portofolio_content {
+    .testimoni_content {
         column-gap: 5rem;
     }
 
-    .swiper-portofolio-icon {
+    .swiper-testimoni-icon {
         font-size: 3.5rem;
     }
 
