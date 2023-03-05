@@ -25,6 +25,9 @@ module.exports = {
                 "2xl": "1320px",
                 "2xl-max": { max: "1320px" },
             },
+            colors: {
+                orangepga: "#FFBE49"
+            },
         },
 
     },
