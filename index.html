@@ -20,7 +20,11 @@
     <!-- (HEADER) -->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav_logo"><img src="./assets/icons/main-logo.png" alt="main-logo" width="27px"></a>
+            <a href="#" class="nav_logo pl-5 md:pl-0"><img src="./assets/icons/main-logo.png" alt="main-logo"
+                    width="27px"></a>
+            <div class="nav_toogle pr-5" id="nav-toggle">
+                <i class="uil uil-apps"></i>
+            </div>
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid font-madamed">
                     <li class="nav_item">
@@ -66,7 +70,7 @@
         <section class="home section" id="home">
             <div class="home_container container grid">
                 <div class="home_content grid">
-                    <div class="home_social xs-max:mt-20">
+                    <div class="hidden home_social md:grid">
                         <a href="https://www.tiktok.com/@pakgurualken?_t=8a9Ey9ymqKv&_r=1" target="_blank"
                             class="home_social-icon">
                             <img src="./assets/icons/tik-tok.png" alt="tiktok" width="18px">
@@ -84,12 +88,15 @@
                             <img src="./assets/icons/tw.png" alt="twitter" width="18px">
                         </a>
                     </div>
-                    <div class="home-img xs-max:absolute top-0 ml-10 sm:pl-11">
+                    <div class="absolute home-img left-[50px] mb-96 md:hidden">
+                        <img class="home_blob-img" src="./assets/img/Alken.png" alt="main-img">
+                    </div>
+                    <div class="hidden home-img md:block md:ml-10">
                         <img class="home_blob-img" src="./assets/img/Alken.png" alt="main-img">
                     </div>
 
-                    <div class="home_data xs-max:mt-36">
-                        <h1 class="home_title xs-max:h-[140px] sm:h-[145px]"> <span class="font-madabold"
+                    <div class="home_data mt-[350px] pl-7 md:mt-0 md:pl-0">
+                        <h1 class="home_title h-[140px] md:h-[145px]"> <span class="font-madabold"
                                 style="color:#1F376A ;">P</span><span class="font-madabold"
                                 style="color: #FFBE49;">G</span><span class="font-madabold"
                                 style="color: #1F376A;">A</span></h1>
@@ -118,40 +125,6 @@
             <h2 class="section_title">Tentang</h2>
             <span class="section_subtitle">My Introduction</span>
 
-            <!-- <div class="about_container container grid">
-                <img src="assets/img/ryhn.jpg" alt="" class="about_img">
-
-                <div class="about_data">
-                    <p class="about_description">Students of second year informatics program study with educational of
-                        programming language. Good in English with good communication and interpersonal skills. A fast
-                        learner with strong-time management skill. Strong work ethic in team or individual settings to
-                        drive product success and process efficiency. Strong troubleshooting and problem solving skills
-                        with an analytical mindset.</p>
-
-                    <div class="about_info">
-                        <div>
-                            <span class="about_info-title">±1</span>
-                            <span class="about_info-name">Years <br> experience</span>
-                        </div>
-
-                        <div>
-                            <span class="about_info-title">±11</span>
-                            <span class="about_info-name">Exercise <br> projects</span>
-                        </div>
-
-                        <div>
-                            <span class="about_info-title">02</span>
-                            <span class="about_info-name">Organization</span>
-                        </div>
-                    </div>
-
-                    <div class="about_buttons">
-                        <a download="" href="assets/pdf/CV-Rayhan Illyas Annabil.pdf" class="button button--flex">
-                            Download CV<i class="uil uil-download-alt button_icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
         </section>
 
 
@@ -160,13 +133,13 @@
             <h2 class="section_title">Testimoni</h2>
             <span class="section_subtitle">Lulusan PGA</span>
 
-            <div class=" personal_container container swiper-container xs-max:pr-">
+            <div class=" personal_container container swiper-container">
                 <div class="swiper-wrapper">
                     <!-- (PORTOFOLIO 1) -->
                     <div class="testimoni_content grid swiper-slide">
                         <img src="assets/img/naufal.jpg" alt="" class="testimoni_img">
 
-                        <div class="testimoni_data">
+                        <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Muhammad Zakiul Naufal</h3>
                             <p class="testimoni_desc">Kelas PGA sangat membantu aku dalam belajar sb khususnya subtest
                                 pk, tiap hari ada latsol jadi makin terbiasa dengan soal sb. Nilai pk ku awalnya di to²
@@ -180,7 +153,7 @@
                     <div class="testimoni_content grid swiper-slide">
                         <img src="assets/img/yuan.jpg" alt="" class="testimoni_img">
 
-                        <div class="testimoni_data">
+                        <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Divada Yuan Syahrani</h3>
                             <p class="testimoni_desc">Belajar PK di PGA seru cara pembahasannya bisa dipahami, karna PK
                                 merupakan pelajaran yg sulit menurutku Alhamdulillah kemarin dpt nilai SBMPTN tertinggi
@@ -192,7 +165,7 @@
                     <div class="testimoni_content grid swiper-slide">
                         <img src="assets/img/cahyanti.jpg" alt="" class="testimoni_img">
 
-                        <div class="testimoni_data">
+                        <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Miftachul Cahyanti</h3>
                             <p class="testimoni_desc">Senang bisa ikutan belajar bareng di PGA, Kakak
                                 Kakak facilitatornya santai dan asik banget. Gara gara ikutan PGA ini nilai mm aku di
@@ -208,7 +181,7 @@
                     <div class="testimoni_content grid swiper-slide">
                         <img src="assets/img/atikah.jpg" alt="" class="testimoni_img">
 
-                        <div class="testimoni_data">
+                        <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Atikah Rahmawati</h3>
                             <p class="testimoni_desc">worth it banget ikut pak guru alken dari yang awalnya skor to pk
                                 300 an utbk jadi bisa 700 an makasih banyak kakak" PGA 🙏🙏 </p>
@@ -217,12 +190,12 @@
                 </div>
 
                 <!-- (ADD ARROW) -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-testimoni-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-testimoni-icon"></i>
-                </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-testimoni-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-testimoni-icon"></i>
+                    </div>
 
                 <!-- (ADD PAGINATION) -->
                 <div class="swiper-pagination"></div>
@@ -232,7 +205,7 @@
 
         <!-- =====SPONSOR===== -->
         <section class="sponsor section" id="sponsor">
-            <div class="sponsor_container container grid py-10">
+            <div class="sponsor_container container grid py-10 px-5 md:px-0">
                 <div class="sponsor_content">
                     <img src="assets/img/analitica.png" alt="" class="sponsor_img">
                 </div>
@@ -261,7 +234,7 @@
     <!-- (FOOTER) -->
     <footer class="footer">
         <div class="footer_bg">
-            <div class="footer_container container grid">
+            <div class="footer_container container grid pl-7 md:pl-0">
                 <div>
                     <h1 class="mb-2 text-6xl"><span class="font-madabold" style="color:#1F376A ;">P</span><span
                             class="font-madabold" style="color: #FFBE49;">G</span><span class="font-madabold"
