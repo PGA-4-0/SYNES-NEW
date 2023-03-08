@@ -818,6 +818,27 @@ img {
     padding: .25rem .5rem .5rem 0;
 }
 
+/*=============== SPONSORS ===============*/
+
+.sponsor_container {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    justify-content: center;
+    row-gap: 3.5rem;
+}
+
+.sponsor_img {
+    width: 90px;
+    /* make it center */
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: var(--img-transition);
+}
+
+.sponsor_content:hover .sponsor_img {
+    /* make to normal */
+    filter: invert(0);
+}
 
 
 
@@ -835,10 +856,6 @@ img {
     padding: 2rem 0 3rem;
 }
 
-.footer_title {
-    font-size: var(--h1-font-size);
-    margin-bottom: var(--mb-0-25);
-}
 
 .footer_subtitle {
     font-size: var(--small-font-size);
@@ -863,7 +880,6 @@ img {
     color: var(--first-color-lighter);
 }
 
-.footer_title,
 .footer_subtitle,
 .footer_link,
 .footer_social {
