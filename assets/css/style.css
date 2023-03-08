@@ -1,61 +1,6 @@
 @import "output.css";
 
 /*==================== GOOGLE FONTS ====================*/
-@font-face {
-    font-family: "madani-light";
-    src: url('../fonts/light.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "madani-regular";
-    src: url('../fonts/regular.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "madani-medium";
-    src: url('../fonts/medium.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "madani-sb";
-    src: url('../fonts/sb.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "madani-bold";
-    src: url('../fonts/bold.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "madani-xb";
-    src: url('../fonts/sb.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "madani-bold";
-    src: url('../fonts/bold.ttf') format("truetype");
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -63,7 +8,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 142;
+    --hue-color: 230;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -81,8 +26,7 @@
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     /*========== Font and typography ==========*/
-    --body-font: 'Poppins', sans-serif;
-    --title-font: 'madani-bold', sans-serif;
+
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --xl-font-size: 7rem;
@@ -144,7 +88,7 @@ body.dark-theme {
 
 /*========== Button Dark/Light ==========*/
 .nav_btns {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
@@ -172,7 +116,6 @@ html {
 
 body {
     margin: 0 0 var(--header-height) 0;
-    font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color);
@@ -242,7 +185,7 @@ img {
 /*==================== LAYOUT ====================*/
 .container {
     max-width: 768px;
-    margin-left: var(--mb-1-5);
+    /* margin-left: var(--mb-1-5); */
     margin-right: var(--mb-1-5);
 }
 
@@ -375,18 +318,9 @@ img {
 
 
 .home_social {
-    display: grid;
+    /* display: grid; */
     grid-template-columns: max-content;
     row-gap: 1rem;
-}
-
-.home_social-icon {
-    font-size: 1.25rem;
-    color: var(--first-color);
-}
-
-.home_social-icon:hover {
-    color: var(--first-color-alt);
 }
 
 .home_blob {
@@ -404,13 +338,11 @@ img {
 }
 
 .home_title {
-    font-family: var(--title-font);
     font-size: var(--xl-font-size);
     letter-spacing: -.2rem;
 }
 
 .home_subtitle {
-    font-family: var(--title-font);
     font-size: var(--h3-font-size);
     color: black;
     font-weight: var(--font-medium);
@@ -729,7 +661,7 @@ img {
 /* Active Modal */
 
 
-/*==================== SWIPPER FOR PORTOFOLIO & CERTIFICATE ====================*/
+/*==================== SWIPPER FOR testimoni & CERTIFICATE ====================*/
 .personal_container {
     overflow: initial;
 }
@@ -740,7 +672,7 @@ img {
 }
 
 .swiper-button-prev {
-    left: -.5rem;
+    left: -0.2rem;
 }
 
 .swiper-button-next {
@@ -763,35 +695,35 @@ img {
 
 
 
-/*==================== PORTOFOLIO ====================*/
+/*==================== testimoni ====================*/
 
 
-.portofolio_content {
+.testimoni_content {
     padding: 0 1.5rem;
 }
 
-.portofolio_img {
+.testimoni_img {
     width: 300px;
     border-radius: .5rem;
     justify-self: center;
 }
 
-.portofolio_title {
+.testimoni_title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
 }
 
-.portofolio_desc {
+.testimoni_desc {
     margin-bottom: var(--mb-0-75);
 }
 
-.portofolio_button:hover .button_icon {
+.testimoni_button:hover .button_icon {
     transform: translateX(.25rem);
 }
 
 
 
-.swiper-portofolio-icon {
+.swiper-testimoni-icon {
     font-size: 2rem;
     color: var(--first-color);
 }
@@ -904,13 +836,33 @@ img {
     width: 100px;
     background-color: var(--input-color);
     color: var(--text-color);
-    font-family: var(--body-font);
     font-size: var(--normal-font-size);
     border: none;
     outline: none;
     padding: .25rem .5rem .5rem 0;
 }
 
+/*=============== SPONSORS ===============*/
+
+.sponsor_container {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    justify-content: center;
+    row-gap: 3.5rem;
+}
+
+.sponsor_img {
+    width: 90px;
+    /* make it center */
+    display: block;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transition: var(--img-transition);
+}
+
+.sponsor_content:hover .sponsor_img {
+    /* make to normal */
+    filter: invert(0);
+}
 
 
 
@@ -928,10 +880,6 @@ img {
     padding: 2rem 0 3rem;
 }
 
-.footer_title {
-    font-size: var(--h1-font-size);
-    margin-bottom: var(--mb-0-25);
-}
 
 .footer_subtitle {
     font-size: var(--small-font-size);
@@ -956,7 +904,6 @@ img {
     color: var(--first-color-lighter);
 }
 
-.footer_title,
 .footer_subtitle,
 .footer_link,
 .footer_social {
@@ -1007,54 +954,8 @@ img {
 }
 
 /*==================== MEDIA QUERIES ====================*/
-/* For small devices */
-@media screen and (max-width: 350px) {
-    .container {
-        margin-right: var(--mb-1);
-        margin-left: var(--mb-1);
-    }
 
-    .nav_menu {
-        padding: 2rem .25rem 4rem;
-    }
 
-    .nav_list {
-        column-gap: 0;
-    }
-
-    .home_content,
-    /* .about_content, */
-    .skills_content,
-    .qualification_content,
-    .portofolio_content,
-    .certificate_content {
-        grid-template-columns: .1fr;
-        width: 50rem;
-    }
-
-    .about_content {
-        grid-template-columns: 1fr;
-        column-gap: 2rem;
-        margin-left: 3.5rem;
-        border: solid 1px blue
-    }
-
-    .home_blob {
-        width: 180px;
-    }
-
-    .skills_title {
-        font-size: var(--normal-font-size);
-    }
-
-    .qualification_data {
-        gap: .5rem;
-    }
-
-    .profile_img {
-        width: 200px;
-    }
-}
 
 @media screen and (min-width: 372px) {
     .home_blob {
@@ -1107,7 +1008,7 @@ img {
 
     .about_container,
     .skills_container,
-    .portofolio_content,
+    .testimoni_content,
     .certificate_content,
     .profile_container,
     .contact_container,
@@ -1254,11 +1155,11 @@ img {
         grid-template-columns: .5fr;
     }
 
-    .portofolio_img {
+    .testimoni_img {
         width: 320px;
     }
 
-    .portofolio_content {
+    .testimoni_content {
         align-items: center;
     }
 
@@ -1333,11 +1234,11 @@ img {
         transform: translateX(-6rem);
     }
 
-    .portofolio_content {
+    .testimoni_content {
         column-gap: 5rem;
     }
 
-    .swiper-portofolio-icon {
+    .swiper-testimoni-icon {
         font-size: 3.5rem;
     }
 
