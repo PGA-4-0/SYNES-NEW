@@ -230,7 +230,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: var(--small-font-size);
+    font-size: var(--smaller-font-size);
     color: var(--title-color);
     font-weight: var(--font-medium);
 }
@@ -291,13 +291,9 @@ img {
     row-gap: 1rem;
 }
 
-.home_blob {
-    width: 200px;
-    fill: var(--first-color);
-}
 
 .home_blob-img {
-    width: 300px;
+    width: 400px;
 }
 
 .home_data {
@@ -639,11 +635,11 @@ img {
 }
 
 .swiper-button-prev {
-    left: -0.2rem;
+    left: 0.5rem;
 }
 
 .swiper-button-next {
-    right: -.5rem;
+    right: 0.5rem;
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets {
