@@ -12,7 +12,8 @@ module.exports = {
                 'madablack': ['Madani Black', 'sans-serif'],
             },
             colors: {
-                orangepga: "#FFBE49"
+                orangepga: "#FFBE49",
+                bluepga: "#4B82F6",
             },
         },
 

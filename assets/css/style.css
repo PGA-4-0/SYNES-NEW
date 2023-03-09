@@ -756,6 +756,9 @@ img {
 
 
 /*==================== TESTIMONIAL ====================*/
+.penawaran_container {
+    overflow: initial;
+}
 
 
 /*==================== CONTACT ME ====================*/
