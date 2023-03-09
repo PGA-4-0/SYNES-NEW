@@ -67,7 +67,7 @@
     <!-- (MAIN) -->
     <main class="main">
         <!-- (HOME) -->
-        <section class="home section" id="home">
+        <section class="home section mb-16 md:mb-28" id="home">
             <div class="home_container container grid">
                 <div class="home_content grid">
                     <div class="hidden home_social md:grid">
@@ -121,13 +121,86 @@
             </div>
         </section>
         <!-- (ABOUT) -->
-        <section class="about section" id="about">
-            <h2 class="section_title mb-14 font-madabold">Tentang</h2>
+
+        <section class="about section bg-black" id="about">
+            <div class="pl-5 h-24 col-span-2 relative md:hidden">
+                <h1 class="text-7xl font-madablack text-white ">tentang</h1>
+            </div>
+            <div class="hidden md:block">
+                <div class="container mx-auto mb-10">
+                    <div class="grid grid-cols-3">
+                        <div class="h-44 col-span-2 relative">
+                            <h1 class="text-8xl font-madablack text-white absolute left-0">tentang</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between px-[380px] mb-14">
+                    <div class="w-1/2 content mx-auto text-white mt-16">
+                        <h3 class="mb-3 text-white font-madablack">Pak Guru Alken</h3>
+                        <p>
+                            Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan online.
+                            Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
+                            Guru Alken (PGA) telah sukses membantu
+                            ribuan membernya menuju ke PTN dan
+                            jurusan impian mereka.
+                        </p>
+                        <br>
+                        <p>
+                            Pak Guru Alken memiliki 5 program utama yaitu:
+                        </p>
+                        <ol>
+                            <li>1. Grup Belajar Telegram</li>
+                            <li>2. Webinar</li>
+                            <li>3. Beasiswa SNBT</li>
+                            <li>4. Bimbel with PGA (offline)</li>
+                            <li>5. Social Project</li>
+                        </ol>
+                    </div>
+
+                    <div class="w-1/2 pl-10 keuntungan">
+                        <h3 class="mb-7 text-3xl text-white font-madablack">Keuntungan</h3>
+                        <div class="grid grid-cols-3 text-white">
+                            <div>
+                                <img class="mx-auto" src="./assets/img/certificate.png" alt="sertifikat" width="60px">
+                                <h1 class="pl-3 text-[#FFBE49] font-black text-[13px] mt-3">E-Sertifikat</h1>
+                                <p class="text-xs text-center">Bagi member yang lulus</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/book.png" alt="akses" width="70px">
+                                <h1 class="text-[#FFBE49] font-black text-[12px] mt-1">Akses 200+ Soal</h1>
+                                <p class="text-xs text-center">Video pembahasan setiap hari!</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto mb-1" src="./assets/img/fleksibel.png" alt="fleksibel" width="60px">
+                                <h1 class="pl-5 text-[#FFBE49] font-black text-[13px] mt-3">Fleksibel</h1>
+                                <p class="text-xs text-center">Materi dapat diakses dimana saja dan kapan saja!</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto pb-4" src="./assets/img/konsultasi.png" alt="konsultasi"
+                                    width="60px">
+                                <h1 class="mt-2 text-[#FFBE49] text-[13px] font-black">Sesi Konsultasi</h1>
+                                <p class="text-xs text-center">Bisa curhat terkait prodi, kampus yang ingin dituju, dan
+                                    juga strategi belajar</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto pb-1" src="./assets/img/video-chat.png" alt="zoom" width="70px">
+                                <h1 class="pl-4 mt-2 text-[#FFBE49] text-[13px] font-black">Live Zoom</h1>
+                                <p class="text-xs text-center">Kelas rutin via Zoom setiap minggunya!</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/connected.png" alt="relasi" width="70px">
+                                <h1 class="pl-8 text-[#FFBE49] text-[13px] font-black mt-3">Relasi</h1>
+                                <p class="text-xs text-center">Bisa bertemu dengan ambisverse UTBK yang lain!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="flex flex-col px-8 md:hidden">
                 <div class="content">
-                    <h3 class="font-madabold mb-1.5">Pak Guru Alken</h3>
-                    <div class="font-madareg">
+                    <h3 class="font-madabold mb-1.5 text-[#4B82F6]">Pak Guru Alken</h3>
+                    <div class="font-madareg text-white">
                         <p>
                             Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan online.
                             Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
@@ -148,8 +221,8 @@
 
                 </div>
                 <div class="font-madabold mt-7 mb-1.5">
-                    <div class="font-madareg">
-                        <h3 class="mb-3">Keuntungan</h3>
+                    <div class="font-madareg text-white">
+                        <h3 class="mb-4 mt-7 text-[#4B82F6]">Keuntungan</h3>
                         <div class="grid grid-cols-2 ">
                             <div>
                                 <img class="mx-auto" src="./assets/img/certificate.png" alt="sertifikat" width="75px">
@@ -157,12 +230,12 @@
                                 <p class="text-sm text-center">Bagi member yang lulus</p>
                             </div>
                             <div>
-                                <img class="hidden mx-auto" src="./assets/img/book.png" alt="akses" width="70px">
+                                <img class="mx-auto" src="./assets/img/book.png" alt="akses" width="70px">
                                 <h1 class="pl-7 text-[#FFBE49] font-black text-[12.8px] mt-2">Akses 200+ Soal</h1>
                                 <p class="text-sm text-center">Video pembahasan setiap hari!</p>
                             </div>
                             <div>
-                                <img class="mx-auto" src="./assets/img/fleksibel.png" alt="fleksibel" width="75px">
+                                <img class="mx-auto" src="./assets/img/fleksibel.png" alt="fleksibel" width="85px">
                                 <h1 class="pl-10 text-[#FFBE49] font-black mt-2">Fleksibel</h1>
                                 <p class="text-sm text-center">Materi dapat diakses dimana saja dan kapan saja!</p>
                             </div>
@@ -173,7 +246,7 @@
                                     juga strategi belajar</p>
                             </div>
                             <div>
-                                <img class="mx-auto" src="./assets/img/video-chat.png" alt="zoom" width="0px">
+                                <img class="mx-auto" src="./assets/img/video-chat.png" alt="zoom" width="75px">
                                 <h1 class="pl-8 mt-2 text-[#FFBE49] font-black">Live Zoom</h1>
                                 <p class="text-sm text-center">Kelas rutin via Zoom setiap minggunya!</p>
                             </div>
@@ -186,69 +259,11 @@
                     </div>
                 </div>
             </div>
-
-            <div class="flex justify-between px-[380px] mb-14">
-                <div class="w-1/2 content mx-auto">
-                    <h3 class="mb-3">Pak Guru Alken</h3>
-                    <p>
-                        Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan online.
-                        Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
-                        Guru Alken (PGA) telah sukses membantu
-                        ribuan membernya menuju ke PTN dan
-                        jurusan impian mereka.
-                    </p>
-                    <br>
-                    <p>
-                        Pak Guru Alken memiliki 5 program utama yaitu:
-                    </p>
-                    <ol>
-                        <li>1. Grup Belajar Telegram</li>
-                        <li>2. Webinar</li>
-                        <li>3. Beasiswa SNBT</li>
-                        <li>4. Bimbel with PGA (offline)</li>
-                        <li>5. Social Project</li>
-                    </ol>
-                </div>
-
-                <div class="w-1/2 pl-10 keuntungan">
-                    <h3 class="mb-3 text-2xl">Keuntungan</h3>
-                    <div class="grid grid-cols-3">
-                        <div>
-                            <img class="mx-auto" src="./assets/img/certificate.png" alt="sertifikat" width="60px">
-                            <h1 class="pl-3 text-[#FFBE49] font-black text-[13px] mt-3">E-Sertifikat</h1>
-                            <p class="text-xs text-center">Bagi member yang lulus</p>
-                        </div>
-                        <div>
-                            <img class="mx-auto" src="./assets/img/book.png" alt="akses" width="70px">
-                            <h1 class="text-[#FFBE49] font-black text-[12px] mt-1">Akses 200+ Soal</h1>
-                            <p class="text-xs text-center">Video pembahasan setiap hari!</p>
-                        </div>
-                        <div>
-                            <img class="mx-auto mb-1" src="./assets/img/fleksibel.png" alt="fleksibel" width="60px">
-                            <h1 class="pl-5 text-[#FFBE49] font-black text-[13px] mt-3">Fleksibel</h1>
-                            <p class="text-xs text-center">Materi dapat diakses dimana saja dan kapan saja!</p>
-                        </div>
-                        <div>
-                            <img class="mx-auto pb-4" src="./assets/img/konsultasi.png" alt="konsultasi" width="60px">
-                            <h1 class="mt-2 text-[#FFBE49] text-[13px] font-black">Sesi Konsultasi</h1>
-                            <p class="text-xs text-center">Bisa curhat terkait prodi, kampus yang ingin dituju, dan
-                                juga strategi belajar</p>
-                        </div>
-                        <div>
-                            <img class="mx-auto pb-1" src="./assets/img/video-chat.png" alt="zoom" width="70px">
-                            <h1 class="pl-4 mt-2 text-[#FFBE49] text-[13px] font-black">Live Zoom</h1>
-                            <p class="text-xs text-center">Kelas rutin via Zoom setiap minggunya!</p>
-                        </div>
-                        <div>
-                            <img class="mx-auto" src="./assets/img/connected.png" alt="relasi" width="70px">
-                            <h1 class="pl-8 text-[#FFBE49] text-[13px] font-black mt-3">Relasi</h1>
-                            <p class="text-xs text-center">Bisa bertemu dengan ambisverse UTBK yang lain!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
+
+
+
+
 
 
         <!-- (PORTOFOLIO) -->
