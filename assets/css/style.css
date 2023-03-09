@@ -158,27 +158,15 @@ img {
     margin-bottom: 7rem;
 }
 
-.about_subtitle {
-    display: block;
-    font-size: var(--normal-font-size);
-    margin-bottom: var(--mb-3);
-    /* margin-top: 5rem; */
-}
 
-.grid_title {
-    display: block;
-    font-weight: bold;
-    font-size: var(--very-small-font-size);
-    margin-bottom: var(--mb-0-25);
-    margin-top: 1rem;
-    color: black;
-}
 
 .grid_content {
     display: block;
-    font-size: var(--very-small-font-size);
-    /* margin-bottom: var(--mb-3); */
+    font-size: 0.5rem;
     color: black;
+    font-size: 12px;
+    font-weight: 400;
+    /* text-align: center; */
 }
 
 
@@ -190,8 +178,12 @@ img {
 }
 
 .grid {
+    margin-left: 1rem;
     display: grid;
-    gap: 1.5rem;
+    gap: 4rem;
+    width: 450px;
+    /* justify-content: center; */
+    
 }
 
 .header {
@@ -334,7 +326,7 @@ img {
 
 .home_data {
     grid-column: 1/3;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
 }
 
 .home_title {
@@ -421,44 +413,64 @@ img {
 
 
 /*==================== ABOUT ====================*/
-.about_img {
-    width: 350px;
-    border-radius: .5rem;
-    justify-self: center;
-    align-self: center;
+.about{
+    margin: 5rem 25rem 1.4rem;
 }
 
-.about_description {
-    text-align: center;
-    margin-bottom: var(--mb-2-5);
-}
-
-.about_info {
+.about .row{
     display: flex;
-    justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
 }
 
-.about_info-title {
-    font-size: var(--h2-font-size);
-    font-weight: var(--font-semi-bold);
+.about h2{
+    font-size: 4rem;
+    margin-bottom: 8rem;
+    font-size: 4rem;
 }
 
-.about_info-name {
-    font-size: var(--smaller-font-size);
-    color: var(--title-color);
+.about .row .content{
+    flex: 1 1 45rem;
+    
 }
 
-.about_info-title,
-.about_info-name {
-    display: block;
-    text-align: center;
+.about .row .content h3,
+.about .row .keuntungan h3{
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    
+    
+    
 }
 
-.about_buttons {
+.about .row .keuntungan{
+    transform: translate(3rem, -6rem);
+    flex: 1 1 35rem;
+}
+
+.about .row .keuntungan .grid{
+    margin-top: 1rem;
+    font-weight: bolder;
+    
+}
+
+.about .row .keuntungan .grid img{
     display: flex;
+    width: 3rem;
     justify-content: center;
+
 }
+
+.about .row .keuntungan .grid_title{
+    font-weight:500;
+    font-size: 0.8rem;
+    margin-bottom: var(--mb-0-25);
+    margin-top: 1rem;
+    color: black;
+    width: 10rem;
+    /* text-align: center; */
+    
+}
+
+
 
 /*==================== SKILLS ====================*/
 .skills_container {
@@ -700,6 +712,7 @@ img {
 
 .testimoni_content {
     padding: 0 1.5rem;
+    border: solid 1px red;
 }
 
 .testimoni_img {
@@ -957,23 +970,15 @@ img {
 
 
 
-@media screen and (min-width: 372px) {
-    .home_blob {
-        width: 280px;
-    }
-
-    .about_content {
-        border: solid 1px blue
-    }
-}
-
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 350px) and (max-width: 768px) {
     .about_content {
         grid-template-columns: 1fr;
         column-gap: 2rem;
         margin-left: 3.5rem;
-        border: solid 1px blue
+        /* border: solid 1px blue */
     }
+
+    
 }
 
 /* For medium devices */
@@ -1085,7 +1090,7 @@ img {
     .home_content {
         padding-top: 5.5rem;
         column-gap: 2rem;
-        border: solid 1px blue
+        /* border: solid 1px blue */
     }
 
     .about_content,
@@ -1096,7 +1101,7 @@ img {
         /* padding-top: 5.5rem; */
         column-gap: 2rem;
         margin-left: 3.5rem;
-        border: solid 1px blue
+        /* border: solid 1px blue */
     }
 
     .home_blob {
@@ -1129,18 +1134,6 @@ img {
         /* bottom: 60px;
         left: 20px; */
         max-width: 100%;
-    }
-
-    .about_description {
-        text-align: initial;
-    }
-
-    .about_info {
-        justify-content: space-between;
-    }
-
-    .about_buttons {
-        justify-content: initial;
     }
 
     .qualification_tabs {
@@ -1215,12 +1208,25 @@ img {
 
 
 /* For large devices */
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
     .header,
     .main,
     .footer_container {
         padding: 0;
+    }
+
+    .about .row{
+        flex-wrap: wrap;
+    }
+    
+    .about .row .content {
+       position:absolute ;
+    }
+
+    .about .row .keuntungan{
+        transform: translate(-1rem,7rem);
+        margin:12rem 0;
     }
 
     .home_blob {
@@ -1236,6 +1242,7 @@ img {
 
     .testimoni_content {
         column-gap: 5rem;
+        border: ;
     }
 
     .swiper-testimoni-icon {
