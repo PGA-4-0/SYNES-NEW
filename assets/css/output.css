@@ -669,6 +669,90 @@ video {
   margin-right: 1.75rem;
 }
 
+.ml-40 {
+  margin-left: 10rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.ml-7 {
+  margin-left: 1.75rem;
+}
+
+.ml-72 {
+  margin-left: 18rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-80 {
+  margin-left: 20rem;
+}
+
+.ml-96 {
+  margin-left: 24rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.-mb-40 {
+  margin-bottom: -10rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mb-36 {
+  margin-bottom: 9rem;
+}
+
+.mb-52 {
+  margin-bottom: 13rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-56 {
+  margin-bottom: 14rem;
+}
+
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
+.mb-44 {
+  margin-bottom: 11rem;
+}
+
 .flex {
   display: flex;
 }
@@ -759,6 +843,11 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-bluepga {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 130 246 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b {
@@ -948,6 +1037,94 @@ video {
   padding-left: 45px;
 }
 
+.pl-40 {
+  padding-left: 10rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pl-48 {
+  padding-left: 12rem;
+}
+
+.pl-52 {
+  padding-left: 13rem;
+}
+
+.pl-60 {
+  padding-left: 15rem;
+}
+
+.pl-72 {
+  padding-left: 18rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-80 {
+  padding-bottom: 20rem;
+}
+
+.pb-48 {
+  padding-bottom: 12rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-52 {
+  padding-bottom: 13rem;
+}
+
+.pb-56 {
+  padding-bottom: 14rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-64 {
+  padding-bottom: 16rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1025,6 +1202,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-black {
@@ -1158,6 +1340,14 @@ video {
     margin-bottom: 4rem;
   }
 
+  .md\:mb-36 {
+    margin-bottom: 9rem;
+  }
+
+  .md\:mb-64 {
+    margin-bottom: 16rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1181,5 +1371,9 @@ video {
 
   .md\:pl-0 {
     padding-left: 0px;
+  }
+
+  .md\:pb-64 {
+    padding-bottom: 16rem;
   }
 }
