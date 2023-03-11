@@ -38,24 +38,24 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="#skills" class="nav_link">
-                            <i class="uil uil-file-alt nav_icon"></i> Program
+                        <a href="#program" class="nav_link">
+                            <i class="uil uil-backpack nav_icon"></i> Program
                         </a>
                     </li>
                     <li class="nav_item">
                         <a href="#testimoni" class="nav_link">
-                            <i class="uil uil-scenery nav_icon"></i> Testimoni
+                            <i class="uil uil-comment-alt-dots nav_icon"></i> Testimoni
                         </a>
                     </li>
                     <!-- ADD ON -->
                     <li class="nav_item">
-                        <a href="#certificate" class="nav_link">
-                            <i class="uil uil-file-bookmark-alt nav_icon"></i> Penawaran
+                        <a href="#penawaran" class="nav_link">
+                            <i class="uil uil-gift nav_icon"></i> Penawaran
                         </a>
                     </li>
                     <li class="nav_item">
                         <a href="#sponsor" class="nav_link">
-                            <i class="uil uil-message nav_icon"></i> Media Partner
+                            <i class="uil uil-club nav_icon"></i> Media Partner
                         </a>
                     </li>
                 </ul>
@@ -64,16 +64,10 @@
         </nav>
     </header>
 
-
-
-
-
-
-
     <!-- (MAIN) -->
     <main class="main">
         <!-- (HOME) -->
-        <section class="home section" id="home">
+        <section class="home section mb-16 md:mb-28" id="home">
             <div class="home_container container grid">
                 <div class="home_content grid">
                     <div class="hidden home_social md:grid">
@@ -111,7 +105,7 @@
                         <p class="font-madalit home_description pl-1.5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, atque!
                         </p>
-                        <a href="#contact" class="button button--flex font-madareg">
+                        <a href="#program" class="button button--flex font-madareg">
                             Daftar Sekarang <i class="uil uil-message button_icon"></i>
                         </a>
                     </div>
@@ -126,292 +120,140 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
         <!-- (ABOUT) -->
-        <section class="about" id="about">
-            <h2>Tentang</h2>
-            <div class="row">
+
+        <section class="about section bg-black" id="about">
+            <div class="pl-5 h-24 col-span-2 relative md:hidden">
+                <h1 class="text-6xl font-madablack text-white ">tentang</h1>
+            </div>
+            <div class="hidden md:block">
+                <div class="container mx-auto mb-10">
+                    <div class="grid grid-cols-3">
+                        <div class="h-44 col-span-2 relative">
+                            <h1 class="text-8xl font-madablack text-white absolute left-0">tentang</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between px-[380px] mb-14">
+                    <div class="w-1/2 content mx-auto text-white mt-16">
+                        <h3 class="mb-3 text-bluepga font-madablack">Pak Guru Alken</h3>
+                        <p>
+                            Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan online.
+                            Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
+                            Guru Alken (PGA) telah sukses membantu
+                            ribuan membernya menuju ke PTN dan
+                            jurusan impian mereka.
+                        </p>
+                        <br>
+                        <p>
+                            Pak Guru Alken memiliki 5 program utama yaitu:
+                        </p>
+                        <ol>
+                            <li>1. Grup Belajar Telegram</li>
+                            <li>2. Webinar</li>
+                            <li>3. Beasiswa SNBT</li>
+                            <li>4. Bimbel with PGA (offline)</li>
+                            <li>5. Social Project</li>
+                        </ol>
+                    </div>
+
+                    <div class="w-1/2 pl-10 keuntungan">
+                        <h3 class="mb-7 text-3xl text-bluepga font-madablack">Keuntungan</h3>
+                        <div class="grid grid-cols-3 text-white">
+                            <div>
+                                <img class="mx-auto" src="./assets/img/certificate.png" alt="sertifikat" width="60px">
+                                <h1 class="pl-3 text-[#FFBE49] font-black text-[13px] mt-3">E-Sertifikat</h1>
+                                <p class="text-xs text-center">Bagi member yang lulus</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/book.png" alt="akses" width="70px">
+                                <h1 class="text-[#FFBE49] font-black text-[12px] mt-1">Akses 200+ Soal</h1>
+                                <p class="text-xs text-center">Video pembahasan setiap hari!</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto mb-1" src="./assets/img/fleksibel.png" alt="fleksibel" width="60px">
+                                <h1 class="pl-5 text-[#FFBE49] font-black text-[13px] mt-3">Fleksibel</h1>
+                                <p class="text-xs text-center">Materi dapat diakses dimana saja dan kapan saja!</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto pb-4" src="./assets/img/konsultasi.png" alt="konsultasi"
+                                    width="60px">
+                                <h1 class="mt-2 text-[#FFBE49] text-[13px] font-black">Sesi Konsultasi</h1>
+                                <p class="text-xs text-center">Bisa curhat terkait prodi, kampus yang ingin dituju, dan
+                                    juga strategi belajar</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto pb-1" src="./assets/img/video-chat.png" alt="zoom" width="70px">
+                                <h1 class="pl-4 mt-2 text-[#FFBE49] text-[13px] font-black">Live Zoom</h1>
+                                <p class="text-xs text-center">Kelas rutin via Zoom setiap minggunya!</p>
+                            </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/connected.png" alt="relasi" width="70px">
+                                <h1 class="pl-8 text-[#FFBE49] text-[13px] font-black mt-3">Relasi</h1>
+                                <p class="text-xs text-center">Bisa bertemu dengan ambisverse UTBK yang lain!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col px-8 md:hidden">
                 <div class="content">
-                    <h3>Pak Guru Alken</h3>
-                    <p>
-                        Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan online.
-                        Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
-                        Guru Alken (PGA) telah sukses membantu
-                        ribuan membernya menuju ke PTN dan
-                        jurusan impian mereka.
-                    </p>
-                    <br>
-                    <p>
-                        Pak Guru Alken memiliki 5 program utama yaitu:
-                    </p>
-                    <ol>
-                        <li>1. Grup Belajar Telegram</li>
-                        <li>2. Webinar</li>
-                        <li>3. Beasiswa SNBT</li>
-                        <li>4. Bimbel with PGA (offline)</li>
-                        <li>5. Social Project</li>
-                    </ol>
-                </div>
-
-
-                <div class="keuntungan">
-                    <h3 class="">Keuntungan</h3>
-                    <div class="grid grid-cols-3 ">
-                        <div>
-                            <img src="./assets/img/PGA//certificate.png" alt="sertifikat">
-                            <h1 class="grid_title">E-Sertifikat</h1>
-                            <p class="grid_content">bagi member yang lulus</p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/PGA/akses_materi.png" alt="akses_materi">
-                            <h1 class="grid_title">Akses 2000+ Soal</h1>
-                            <p class="grid_content">dan video pembahasan setiap hari!</p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/PGA//information.png" alt="Fleksibel">
-                            <h1 class="grid_title">Fleksibel</h1>
-                            <p class="grid_content">materi dapat diakses dimana saja dan kapan saja!</p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/PGA//member_privilege.png" alt="konsultasi"
-                                class="member_privilege_img">
-                            <h1 class="grid_title">Sesi Konsultasi</h1>
-                            <p class="grid_content">bisa curhat terkait prodi, kampus yang ingin dituju, dan juga strategi belajar</p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/PGA//live_class.png" alt="live_zoom">
-                            <h1 class="grid_title">Live Zoom</h1>
-                            <p class="grid_content">kelas rutin via zoom setiap minggunya!</p>
-                        </div>
-                        <div>
-                            <img src="./assets/img/PGA//relation.png" alt="relasi">
-                            <h1 class="grid_title">Menambah Relasi</h1>
-                            <p class="grid_content">bisa bertemu dengan ambisverse UTBK yang lain!</p>
-                        </div>
+                    <h3 class="font-madabold mb-1.5 text-bluepga">Pak Guru Alken</h3>
+                    <div class="font-madareg text-white">
+                        <p>
+                            Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan online.
+                            Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
+                            Guru Alken (PGA) telah sukses membantu
+                            ribuan membernya menuju ke PTN dan
+                            jurusan impian mereka.
+                        </p>
+                        <br>
+                        <p class="mb-1">Pak Guru Alken memiliki 5 program utama yaitu:</p>
+                        <ol>
+                            <li>1. Grup Belajar Telegram</li>
+                            <li>2. Webinar</li>
+                            <li>3. Beasiswa SNBT</li>
+                            <li>4. Bimbel with PGA (offline)</li>
+                            <li>5. Social Project</li>
+                        </ol>
                     </div>
+
                 </div>
-            </div>
-        </section>
-        <!-- <section class="about_section" id="about">
-            <div class="row">
-                <div class="about_container container grid">
-                    <div class="about_content grid ">
-                        <div class="home_data">
-                            <h1 class="section_title">tentang</h1>
-                            <h1 class="about_subtitle">Pak Guru Alken</h1>
-                            <div class="about_data">
-                                <p>Pak Guru Alken merupakan platform yang bergerak di bidang edukasi secara offline dan
-                                    online. Pada SBMPTN 2020, 2021 dan 2022, program grup Pak
-                                    Guru Alken (PGA) telah sukses membantu
-                                    ribuan membernya menuju ke PTN dan
-                                    jurusan impian mereka.
-    
-                                    Pak Guru Alken memiliki 5 program utama yaitu :
-                                    Grup Belajar Telegram
-                                    Webinar
-                                    Beasiswa SNBT
-                                    Bimbel with PGA (offline)
-                                    Social Project
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div>
-    
-                            <h1 class="translate-x-0.5 translate-y-12">Keuntungan</h1>
-                            <div class="grid gap-4 grid-cols-3 translate-y-20 mb-8">
-                                <div class=" ">
-                                    <img src="./assets/img/PGA/akses_materi.png" alt="akses_materi" class="w-7">
-                                    <h1 class="grid_title">Akses Materi</h1>
-                                    <p class="grid_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellat,
-                                        facere.</p>
-                                </div>
-                                <div class="">
-                                    <img src="./assets/img/PGA//information.png" alt="kelas_live" class="w-7">
-                                    <h1 class="grid_title">Informasi Penting</h1>
-                                    <p class="grid_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellat,
-                                        facere.</p>
-                                </div>
-                                <div class="">
-                                    <img src="./assets/img/PGA//certificate.png" alt="sertifikat" class="w-7">
-                                    <h1 class="grid_title">E-Sertifikat</h1>
-                                    <p class="grid_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellat,
-                                        facere.</p>
-                                </div>
-                                <div class="">
-                                    <img src="./assets/img/PGA//live_class.png" alt="kelas_live" class="w-7">
-                                    <h1 class="grid_title">Kelas Live</h1>
-                                    <p class="grid_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellat,
-                                        facere.</p>
-                                </div>
-                                <div class="">
-                                    <img src="./assets/img/PGA//member_privilege.png" class="w-7" alt="member_privilege"
-                                        class="member_privilege_img">
-                                    <h1 class="grid_title">Member Privilege</h1>
-                                    <p class="grid_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellat,
-                                        facere.</p>
-                                </div>
-                                <div class=" ">
-                                    <img src="./assets/img/PGA//relation.png" alt="kelas_live" class="w-7">
-                                    <h1 class="grid_title">Relasi</h1>
-                                    <p class="grid_content">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Repellat,
-                                        facere.</p>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-
-
-        <!-- (SKILLS) -->
-        <section class="skills section" id="skills">
-            <div class="skills_container container grid">
-                <div class="skills_content grid">
-                    0
-                    <h2 class="section_title">Skills</h2>
-                </div>
-                <div>
-                    <!-- (SKILLS 1) -->
-                    <div class="skills_content">
-                        <div class="skills_header">
-                            <i class="uil uil-brackets-curly skills_icon"></i>
-
+                <div class="font-madabold mt-7 mb-1.5">
+                    <div class="font-madareg text-white">
+                        <h3 class="mb-4 mt-7 text-bluepga">Keuntungan</h3>
+                        <div class="grid grid-cols-2 ">
                             <div>
-                                <h1 class="skills_title">Programming language</h1>
-                                <span class="skills_subtitle">Around 1 year</span>
+                                <img class="mx-auto" src="./assets/img/certificate.png" alt="sertifikat" width="75px">
+                                <h1 class="pl-10 text-[#FFBE49] font-black">E-Sertifikat</h1>
+                                <p class="text-sm text-center">Bagi member yang lulus</p>
                             </div>
-
-                            <i class="uil uil-angle-up skills_arrow"></i>
-                        </div>
-
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Python</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_python"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">C</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_c"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">JavaScript</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_js"></span>
-                                </div>
-                            </div>
-
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Dart</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_dart"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- (SKILLS 2) -->
-                    <div class="skills_content">
-                        <div class="skills_header">
-                            <i class="uil uil-server-network skills_icon"></i>
-
                             <div>
-                                <h1 class="skills_title">Framework</h1>
-                                <span class="skills_subtitle">Around 11 months</span>
+                                <img class="mx-auto" src="./assets/img/book.png" alt="akses" width="70px">
+                                <h1 class="pl-7 text-[#FFBE49] font-black text-[12.8px] mt-2">Akses 200+ Soal</h1>
+                                <p class="text-sm text-center">Video pembahasan setiap hari!</p>
                             </div>
-
-                            <i class="uil uil-angle-up skills_arrow"></i>
-                        </div>
-
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Flutter</h3>
-                                    <span class="skills_desc">Advanced Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_flutter"></span>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <!-- (SKILLS 3) -->
-                    <div class="skills_content">
-                        <div class="skills_header">
-                            <i class="uil uil-swatchbook skills_icon"></i>
-
                             <div>
-                                <h1 class="skills_title">Design</h1>
-                                <span class="skills_subtitle">Around 6 months</span>
+                                <img class="mx-auto" src="./assets/img/fleksibel.png" alt="fleksibel" width="85px">
+                                <h1 class="pl-[45px] text-[#FFBE49] font-black mt-2">Fleksibel</h1>
+                                <p class="text-sm text-center">Materi dapat diakses dimana saja dan kapan saja!</p>
                             </div>
-
-                            <i class="uil uil-angle-up skills_arrow"></i>
-                        </div>
-
-                        <div class="skills_list grid">
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">HTML</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_html"></span>
-                                </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/konsultasi.png" alt="konsultasi" width="85px">
+                                <h1 class="pl-5 mt-2 text-[#FFBE49] font-black">Sesi Konsultasi</h1>
+                                <p class="text-sm text-center">Bisa curhat terkait prodi, kampus yang ingin dituju, dan
+                                    juga strategi belajar</p>
                             </div>
-
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">CSS</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_css"></span>
-                                </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/video-chat.png" alt="zoom" width="75px">
+                                <h1 class="pl-10 mt-2 text-[#FFBE49] font-black">Live Zoom</h1>
+                                <p class="text-sm text-center">Kelas rutin via Zoom setiap minggunya!</p>
                             </div>
-
-                            <div class="skills_data">
-                                <div class="skills_titles">
-                                    <h3 class="skills_name">Photoshop</h3>
-                                    <span class="skills_desc">Beginner</span>
-                                </div>
-                                <div class="skills_bar">
-                                    <span class="skills_percentage skills_photoshop"></span>
-                                </div>
+                            <div>
+                                <img class="mx-auto" src="./assets/img/connected.png" alt="relasi" width="75px">
+                                <h1 class="pl-[57px] text-[#FFBE49] font-black mt-2">Relasi</h1>
+                                <p class="text-sm text-center">Bisa bertemu dengan ambisverse UTBK yang lain!</p>
                             </div>
                         </div>
                     </div>
@@ -419,21 +261,177 @@
             </div>
         </section>
 
+        <!-- (PROGRAM) -->
+        <section class="program section bg-bluepga" id="program">
+            <div class="hidden md:block">
+                <div class="container mx-auto mb-10">
+                    <div class="grid grid-cols-3">
+                        <div class="h-44 col-span-2 relative">
+                            <h1 class="text-8xl font-madablack absolute right-0 text-white">program</h1>
+                        </div>
+                        <div class="h-44 relative">
+                            <p class="text-sm text-slate-800 font-madareg absolute bottom-0 left-0 text-white"><span
+                                    class="font-madabold text-lg">Judul Penjelasan</span><br>pembiayaan pendaftaran UTBK
+                                bagi yang membutuhkan. Terbuka untuk donatur dan penerima</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-44">
+                    <div class="grid grid-cols-4">
+                        <div class="bg-slate-900 shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?graduation" alt="">
+                            <h4 class="mx-4 pt-4 font-madasb text-orangepga">Program Beasiswa</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-white">Pembiayaan pendaftaran UTBK bagi
+                                yang
+                                membutuhkan. Terbuka untuk
+                                donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
 
-        <!-- (PORTOFOLIO) -->
+                        <div class="bg-white shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?study" alt="">
+                            <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Grup Belajar</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-black">Memudahkan para Member kami dalam
+                                mempersiapkan diri
+                                untuk
+                                menghadapi seleksi UTBK / Mandiri. dengan memberikan fasilitas berupa : latihan soal,
+                                video
+                                pembahasan, kuis, pendampingan tutor, konsultasi via call/chat, dan live class zoom
+                                mingguan.</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+
+                        <div class="bg-slate-900 shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?webinar" alt="">
+                            <h4 class="mx-4 font-madasb pt-4 text-orangepga">Program Webinar</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-white">pembiayaan pendaftaran UTBK bagi
+                                yang
+                                membutuhkan. Terbuka untuk
+                                donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+
+                        <div class="bg-white shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?teaching" alt="">
+                            <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Bimbel with PGA</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-black">bimbingan belajar private
+                                offline untuk
+                                siswa SD, SMP,
+                                SMA, dan Gap
+                                Year (khusus wilayah semarang) daftar di bit.ly/BimbelwithPGA</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pl-5 h-auto col-span-2 relative md:hidden">
+                <h1 class="text-6xl font-madablack text-white">program</h1>
+                <div class="h-24 relative text-right pr-10">
+                    <p class="text-sm text-slate-800 font-madareg mt-7 text-white"><span
+                            class="font-madabold text-lg">Judul
+                            Penjelasan</span><br>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Excepturi, nobis.</p>
+                </div>
+                <div class="px-8 mr-7">
+                    <div class="personal_container container swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="bg-slate-900 shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?graduation" alt="">
+                                <h4 class="mx-4 pt-4 font-madasb text-orangepga">Program Beasiswa</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-white">Pembiayaan pendaftaran UTBK
+                                    bagi
+                                    yang
+                                    membutuhkan. Terbuka untuk
+                                    donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+
+                            <div class="bg-white shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?study" alt="">
+                                <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Grup Belajar</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-black">Memudahkan para Member kami
+                                    dalam
+                                    mempersiapkan diri
+                                    untuk
+                                    menghadapi seleksi UTBK / Mandiri. dengan memberikan fasilitas berupa : latihan
+                                    soal,
+                                    video
+                                    pembahasan, kuis, pendampingan tutor, konsultasi via call/chat, dan live class zoom
+                                    mingguan.</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+
+                            <div class="bg-slate-900 shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?webinar" alt="">
+                                <h4 class="mx-4 font-madasb pt-4 text-orangepga">Program Webinar</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-white">pembiayaan pendaftaran UTBK
+                                    bagi
+                                    yang
+                                    membutuhkan. Terbuka untuk
+                                    donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+
+                            <div class="bg-white shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?teaching" alt="">
+                                <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Bimbel with PGA</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-black">bimbingan belajar private
+                                    offline untuk
+                                    siswa SD, SMP,
+                                    SMA, dan Gap
+                                    Year (khusus wilayah semarang) daftar di bit.ly/BimbelwithPGA</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination md:mb-16"></div>
+
+                    </div>
+
+                    <!-- (ADD ARROW) -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-testimoni-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-testimoni-icon"></i>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- (TESTIMONI) -->
         <section class="testimoni section" id="testimoni">
-            <h2 class="section_title">Testimoni</h2>
-            <span class="section_subtitle">Lulusan PGA</span>
+            <h1 class="text-6xl font-madablack text-black mb-12 mt-4 md:hidden ml-6">testimoni</h1>
+            <h1 class="text-8xl hidden font-madablack text-black  ml-96 mb-20 md:block">testimoni</h1>
 
-            <div class=" personal_container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!-- (PORTOFOLIO 1) -->
+            <div class=" personal_container container swiper-container pb-36 md:pb-64">
+                <div class="swiper-wrapper font-madareg">
+                    <!-- (TESTIMONI 1) -->
                     <div class="testimoni_content grid swiper-slide">
                         <img src="assets/img/naufal.jpg" alt="" class="testimoni_img">
 
                         <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Muhammad Zakiul Naufal</h3>
-                            <p class="testimoni_desc">Kelas PGA sangat membantu aku dalam belajar sb khususnya subtest
+                            <p class="testimoni_desc text-sm">Kelas PGA sangat membantu aku dalam belajar sb khususnya
+                                subtest
                                 pk, tiap hari ada latsol jadi makin terbiasa dengan soal sb. Nilai pk ku awalnya di to²
                                 selalu dapatnya kisaran 300an, kemarin di sb pk dapat skor 650+. Aku mengucapkan banyak
                                 terimakasih karena udah menyelenggarakan kelas pga ini
@@ -447,7 +445,8 @@
 
                         <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Divada Yuan Syahrani</h3>
-                            <p class="testimoni_desc">Belajar PK di PGA seru cara pembahasannya bisa dipahami, karna PK
+                            <p class="testimoni_desc text-sm">Belajar PK di PGA seru cara pembahasannya bisa dipahami,
+                                karna PK
                                 merupakan pelajaran yg sulit menurutku Alhamdulillah kemarin dpt nilai SBMPTN tertinggi
                                 di PK. Terima kasih PGA kerenn, kakak facil nya juga baik baik bgt</p>
                         </div>
@@ -459,7 +458,7 @@
 
                         <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Miftachul Cahyanti</h3>
-                            <p class="testimoni_desc">Senang bisa ikutan belajar bareng di PGA, Kakak
+                            <p class="testimoni_desc text-sm">Senang bisa ikutan belajar bareng di PGA, Kakak
                                 Kakak facilitatornya santai dan asik banget. Gara gara ikutan PGA ini nilai mm aku di
                                 Ujian dan Tryout jadi meningkat
                                 . Awalnya join PGA untuk persiapan UTBK tapi Alhamdulillah aku bisa
@@ -475,14 +474,170 @@
 
                         <div class="testimoni_data pl-7 md:pl-0">
                             <h3 class="testimoni_title font-madamed">Atikah Rahmawati</h3>
-                            <p class="testimoni_desc">worth it banget ikut pak guru alken dari yang awalnya skor to pk
+                            <p class="testimoni_desc text-sm">worth it banget ikut pak guru alken dari yang awalnya skor
+                                to pk
                                 300 an utbk jadi bisa 700 an makasih banyak kakak" PGA 🙏🙏 </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- (ADD ARROW) -->
-                
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-testimoni-icon mb-44 md:mb-64"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-testimoni-icon mb-44 md:mb-64"></i>
+                </div>
+
+                <!-- (ADD PAGINATION) -->
+                <div class="swiper-pagination mb-12 md:mb-36"></div>
+            </div>
+        </section>
+
+        <section class="penawaran section bg-orangepga" id="penawaran">
+            <div class="hidden md:block">
+                <div class="container mx-auto mb-10">
+                    <div class="grid grid-cols-3">
+                        <div class="h-44 col-span-2 relative">
+                            <h1 class="text-8xl font-madablack absolute right-0">penawaran</h1>
+                        </div>
+                        <div class="h-44 relative">
+                            <p class="text-sm text-slate-800 font-madareg absolute bottom-0 left-0"><span
+                                    class="font-madabold text-lg">Judul Penjelasan</span><br>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Excepturi, nobis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-44">
+                    <div class="grid grid-cols-4">
+                        <div class="bg-slate-900 shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?graduation" alt="">
+                            <h4 class="mx-4 pt-4 font-madasb text-orangepga">Program Beasiswa</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-white">Pembiayaan pendaftaran UTBK bagi
+                                yang
+                                membutuhkan. Terbuka untuk
+                                donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+
+                        <div class="bg-white shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?study" alt="">
+                            <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Grup Belajar</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-black">Memudahkan para Member kami dalam
+                                mempersiapkan diri
+                                untuk
+                                menghadapi seleksi UTBK / Mandiri. dengan memberikan fasilitas berupa : latihan soal,
+                                video
+                                pembahasan, kuis, pendampingan tutor, konsultasi via call/chat, dan live class zoom
+                                mingguan.</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+
+                        <div class="bg-slate-900 shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?webinar" alt="">
+                            <h4 class="mx-4 font-madasb pt-4 text-orangepga">Program Webinar</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-white">pembiayaan pendaftaran UTBK bagi
+                                yang
+                                membutuhkan. Terbuka untuk
+                                donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+
+                        <div class="bg-white shadow-lg">
+                            <img src="https://source.unsplash.com/600x400?teaching" alt="">
+                            <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Bimbel with PGA</h4>
+                            <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-black">bimbingan belajar private
+                                offline untuk
+                                siswa SD, SMP,
+                                SMA, dan Gap
+                                Year (khusus wilayah semarang) daftar di bit.ly/BimbelwithPGA</p>
+                            <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                selengkapnya..</a>
+                            <div class="mb-32"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pl-5 h-auto col-span-2 relative md:hidden">
+                <h1 class="text-6xl font-madablack">penawaran</h1>
+                <div class="h-24 relative text-right pr-10">
+                    <p class="text-sm text-slate-800 font-madareg mt-7"><span class="font-madabold text-lg">Judul
+                            Penjelasan</span><br>Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Excepturi, nobis.</p>
+                </div>
+                <div class="px-8 mr-7">
+                    <div class="personal_container container swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="bg-slate-900 shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?graduation" alt="">
+                                <h4 class="mx-4 pt-4 font-madasb text-orangepga">Program Beasiswa</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-white">Pembiayaan pendaftaran UTBK
+                                    bagi
+                                    yang
+                                    membutuhkan. Terbuka untuk
+                                    donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+
+                            <div class="bg-white shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?study" alt="">
+                                <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Grup Belajar</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm text-black">Memudahkan para Member kami
+                                    dalam
+                                    mempersiapkan diri
+                                    untuk
+                                    menghadapi seleksi UTBK / Mandiri. dengan memberikan fasilitas berupa : latihan
+                                    soal,
+                                    video
+                                    pembahasan, kuis, pendampingan tutor, konsultasi via call/chat, dan live class zoom
+                                    mingguan.</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+
+                            <div class="bg-slate-900 shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?webinar" alt="">
+                                <h4 class="mx-4 font-madasb pt-4 text-orangepga">Program Webinar</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-white">pembiayaan pendaftaran UTBK
+                                    bagi
+                                    yang
+                                    membutuhkan. Terbuka untuk
+                                    donatur dan penerima. daftar di bit.ly/Program-Beasiswa-PGA4</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+
+                            <div class="bg-white shadow-lg swiper-slide">
+                                <img src="https://source.unsplash.com/600x400?teaching" alt="">
+                                <h4 class="mx-4 font-madasb pt-4 text-bluepga">Program Bimbel with PGA</h4>
+                                <p class="mt-1 mx-4 mb-4 font-madareg text-sm  text-black">bimbingan belajar private
+                                    offline untuk
+                                    siswa SD, SMP,
+                                    SMA, dan Gap
+                                    Year (khusus wilayah semarang) daftar di bit.ly/BimbelwithPGA</p>
+                                <a href="" class="mx-4 mt-2 text-xs font-madalit underline text-blue-500">Baca
+                                    selengkapnya..</a>
+                                <div class="mb-32"></div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-pagination md:mb-16"></div>
+
+                    </div>
+
+                    <!-- (ADD ARROW) -->
                     <div class="swiper-button-next">
                         <i class="uil uil-angle-right-b swiper-testimoni-icon"></i>
                     </div>
@@ -490,11 +645,9 @@
                         <i class="uil uil-angle-left-b swiper-testimoni-icon"></i>
                     </div>
 
-                <!-- (ADD PAGINATION) -->
-                <div class="swiper-pagination md:mb-10"></div>
+                </div>
             </div>
         </section>
-
 
         <!-- =====SPONSOR===== -->
         <section class="sponsor section" id="sponsor">
@@ -554,7 +707,6 @@
                     </a>
                 </div>
             </div>
-
         </div>
     </footer>
 

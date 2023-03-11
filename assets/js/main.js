@@ -40,7 +40,23 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== SERVICES MODAL ====================*/
 
 
-/*==================== PORTFOLIO SWIPER  ====================*/
+/*==================== PENAWARAN SWIPER  ====================*/
+
+// let swiperPenawaran = new Swiper(".penawaran_container", {
+//     cssMode: true,
+//     loop: true,
+//     grabCursor: true,
+
+//     navigation: {
+//         nextEl: ".swiper-button-next",
+//         prevEl: ".swiper-button-prev",
+//     },
+
+//     pagination: {
+//         el: ".swiper-penawaran",
+//         clickable: true,
+//     },
+// })
 
 
 /*==================== TESTIMONIAL ====================*/
